@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: clear-sans-bold-italic;
+  src: url('/public/ClearSans-BoldItalic.ttf');
+}
+
+.clear-sans-bold-italic {
+  font-family: clear-sans-bold-italic;
+}
