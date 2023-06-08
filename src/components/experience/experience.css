@@ -2,6 +2,7 @@
 h1 {
     display: flex;
     flex-direction: row;
+    font-size: 30px;
     gap: 3px;
 }
 
@@ -11,17 +12,37 @@ h1:after {
     border-bottom: 1px solid;
     margin: auto;
 }
+.description-component {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex: 1, 1;
+    column-gap: 20px;
+}
 .company-list {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    gap: 10px;
 }
 .companies {
+    margin-left: 4px;
     cursor: pointer;
 }
 .vertical-line {
     border-left: 4px solid;
-    height: 50px;
+    height: 100px;
+}
+.thin-vertical-line {
+    border-left: solid;
+    height: 100px;
+}
+li::marker {
+    color: #9CC3D5FF;
+    content: "►";
+  }
+
+h2 {
+    font-size: 25px;
 }
