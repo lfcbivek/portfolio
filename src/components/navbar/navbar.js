@@ -1,6 +1,6 @@
 import React from 'react';
-import linkedIn from '../../static/images/linkedin.png'
-import gitHub from '../../static/images/github.png'
+import linkedIn from '../../static/images/LinkedIn.svg'
+import gitHub from '../../static/images/Github.svg'
 export default class NavBar extends React.Component {
     render(){
         return(

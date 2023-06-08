@@ -1,10 +1,5 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,19 +8,15 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.content-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  
 }
-
-.App-link {
-  color: #61dafb;
+.socials {
+  position: fixed;
+  top: 40%;
+  margin-left: 2%;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +26,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: clear-sans-bold-italic;
+  src: url('/public/ClearSans-BoldItalic.ttf');
+}
+
+.clear-sans-bold-italic {
+  font-family: clear-sans-bold-italic;
 }
